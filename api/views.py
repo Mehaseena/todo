@@ -105,5 +105,5 @@ class UsersView(ModelViewSet):
     #         User.objects.create_user(**serializer.validated_data)
     #         return Response(data=serializer.data)
     #     else:
-    #         return Response(data=serializer.errors)
+    #         return Responce(data=serializer.data)
        
